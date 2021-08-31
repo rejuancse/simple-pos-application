@@ -1,2 +1,3 @@
-# simple-pos-application
-Laravel simple POS Application
+# Simple pos application
+
+Laravel simple pos application
