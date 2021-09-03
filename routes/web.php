@@ -16,6 +16,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('users', function () {
+    return view('users/users');
+});
+
+Route::get('groups', function () {
+    return view('groups/groups');
+});
+
 Route::get('test', function () {
     return 'This is test message';
 });
@@ -23,4 +31,3 @@ Route::get('test', function () {
 Route::get('about', 'App\Http\Controllers\HomeController@index');
 
 Route::get('contact', 'App\Http\Controllers\ContactController@contact');
-
